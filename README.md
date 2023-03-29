@@ -1,4 +1,4 @@
-# Send to Pager - A Scrimba Solo Project
+# Send to Pager - A Scrimba Bootcamp Solo Project
 
 ## Project Requirements
 - Follow design comp
