@@ -11,7 +11,49 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <main>
+    <h1>Send to Pager!</h1>
+    <div class="app-container">
+      <div class="pager-container">
+        <h2>Pager</h2>
+        <div id="pager-display" class="pager-display">1337</div>
+      </div>
+
+      <div class="phone-container">
+        <h2>Phone</h2>
+        <div class="phone-container__inner">
+          <div id="phone-display" class="phone-display">1337</div>
+          <!-- phone keypad -->
+          <div id="keypad" class="keypad">
+            <div class="keypad-row">
+              <button class="btn keypad-btn">1</button>
+              <button class="btn keypad-btn">2</button>
+              <button class="btn keypad-btn">3</button>
+            </div>
+            <div class="keypad-row">
+              <button class="btn keypad-btn">4</button>
+              <button class="btn keypad-btn">5</button>
+              <button class="btn keypad-btn">6</button>
+            </div>
+            <div class="keypad-row">
+              <button class="btn keypad-btn">7</button>
+              <button class="btn keypad-btn">8</button>
+              <button class="btn keypad-btn">9</button>
+            </div>
+            <div class="keypad-row">
+              <button class="btn keypad-btn">*</button>
+              <button class="btn keypad-btn">0</button>
+              <button class="btn keypad-btn">#</button>
+            </div>
+          </div>
+          <!-- phone buttons -->
+          <button id="reset-btn" class="btn reset-btn">reset</button>
+          <button id="send-btn" class="btn send-btn">send</button>
+        </div>
+      </div>
+    </div>  
+  </main>
+
   <script src="app.js"></script>
 </body>
 </html>
